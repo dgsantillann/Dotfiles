@@ -1,0 +1,53 @@
+* {
+    font-family: "Ubuntu Nerd Font";
+    font-size: 20px;
+}
+
+window#waybar{
+    background-color: #282828;
+}
+
+/* -- LEFT -- */
+
+#custom-launch{
+    margin: 5px 5px 5px 20px;
+    font-size: 25px;
+}
+
+#custom-launch:hover{
+    color: #689d6a;
+}
+
+#workspaces button {
+    animation: none;
+    padding: 0;
+    margin: 0 -7px;
+    color: #98971a;
+    background-color: transparent;
+}
+
+#workspaces button.empty {
+    color: #ebdbb1;
+}
+
+#workspaces button.visible {
+    color: #458588;
+}
+
+#workspaces button.urgent {
+    color: #cc241d;
+}
+
+#workspaces button:hover {
+    color: #b16286;
+}
+
+/* -- RIGHT -- */
+
+#custom-updates {
+    margin: 0 15px;
+}
+
+#pulseaudio {
+    margin-right: 20px;
+}
